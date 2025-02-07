@@ -1,0 +1,103 @@
+git clone <repository-url>
+copies a remote repository to your local machine
+
+git clone <repository-url> <folder-name>
+clones a repository into a specific folder
+
+Checking Status & Logs
+
+git status
+Shows the current state of the working directory and staging area.
+
+git log
+Shows commit history.
+
+git log --oneline
+Displays a concise one-line summary of each commit.
+
+git log --graph --decorate --all --oneline
+Shows a graphical representation of the commit history.
+
+git add newfile.css
+git add .
+
+
+
+
+
+Setting up my Git environment
+
+1. Set Up Your Git Information (Only Once Per Machine)
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+✔ This ensures your commits have the correct author details.
+
+2. Navigate to the Project Folder
+cd path/to/your/project
+✔ Moves you into the project folder where you will work.
+
+3. Initialize a New Repository (If Not Already a Git Repo)
+git init
+✔ Creates a .git folder to track changes in your project.
+
+4. Clone an Existing Repository (If Working on a Remote Repo)
+git clone repository-url
+Example:
+git clone https://github.com/allanjames-prog/myrepo.git
+✔ Copies an existing project from GitHub or another remote server.
+
+5. Check Repository Status
+git status
+✔ Shows which files are modified, new, or ready to be committed.
+
+6. Link to a Remote Repository (If Not Already Set)
+git remote add origin repository-url
+Example:
+git remote add origin https://github.com/allanjames-prog/myrepo.git
+✔ Connects your local project to a GitHub repository.
+
+7. Pull the Latest Changes (If Collaborating)
+git pull origin main
+✔ Updates your local code with the latest changes from the main branch.
+
+After Setup, Start Working!
+Now you can add files, commit changes, and push updates:
+git add .
+git commit -m "Your commit message"
+git push origin main
+
+
+
+1. Set Up Your Git Information (Only Once Per Machine)
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+2. Navigate to the Project Folder
+cd path/to/your/project
+
+3. Initialize a New Repository (If Not Already a Git Repo)
+git init
+
+4. Clone an Existing Repository (If Working on a Remote Repo)
+git clone repository-url
+For example
+git clone https://github.com/allanjames-prog/myrepo.git
+copies an existing projrct from GitHub or any other online platform that offers these services
+ 
+ 5. Check repository status
+ git status
+
+ 6. Link to a Remote Repository
+ git remote add origin repositiry-url
+ git remote add origin https://github.com/allanjames-prog/myrepo.git
+Connects your lcal project to a GitHub repository
+
+7.Pull the latest Changes (if Collaborating)
+git pull origin main
+Updates your local code with the latest changes from the main branch.
+
+After Setup, Start Working!
+Now you can add files, commit changes, and push updates:
+git add .
+git commit -m "Your commit message"
+git push origin main
