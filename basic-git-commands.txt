@@ -97,7 +97,7 @@ git pull origin main
 Updates your local code with the latest changes from the main branch.
 
 After Setup, Start Working!
-Now you can add files, commit changes, and push updates:
+Now you can do things like add files, commit changes, and push updates:
 git add .
 git commit -m "Your commit message"
 git push origin main
